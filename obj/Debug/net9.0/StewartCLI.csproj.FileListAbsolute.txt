@@ -1,0 +1,15 @@
+C:\Users\John\Desktop\Stewart\StewartCLI\bin\Debug\net9.0\StewartCLI.exe
+C:\Users\John\Desktop\Stewart\StewartCLI\bin\Debug\net9.0\StewartCLI.deps.json
+C:\Users\John\Desktop\Stewart\StewartCLI\bin\Debug\net9.0\StewartCLI.runtimeconfig.json
+C:\Users\John\Desktop\Stewart\StewartCLI\bin\Debug\net9.0\StewartCLI.dll
+C:\Users\John\Desktop\Stewart\StewartCLI\bin\Debug\net9.0\StewartCLI.pdb
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.AssemblyInfoInputs.cache
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.AssemblyInfo.cs
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.sourcelink.json
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.dll
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\refint\StewartCLI.dll
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.pdb
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\StewartCLI.genruntimeconfig.cache
+C:\Users\John\Desktop\Stewart\StewartCLI\obj\Debug\net9.0\ref\StewartCLI.dll
