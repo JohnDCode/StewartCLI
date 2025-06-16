@@ -24,7 +24,7 @@ public class Router
         string command = args[0].ToLower();
 
         // Get the command (must follow the ICommand interface) and delegate appropriately
-        ICommand cmd = command switch
+        ICommand? cmd = command switch
         {
             "a" => new ACommand(),
             "b" => new BCommand(),
