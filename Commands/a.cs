@@ -17,5 +17,14 @@ public class ACommand : ICommand
     {
         // Debug console out
         Console.Write("Running Debug Command 'A'!");
+
+        RunSingleCommand().Wait();
+    }
+
+    private async Task RunSingleCommand()
+    {
+        string command = "Get-Date";
+        string result = await PowerShellRunner.RunAsync(command);
+        Console.WriteLine($"Output:\n{result}");
     }
 }
