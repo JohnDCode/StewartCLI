@@ -27,7 +27,15 @@ public class Router
         ICommand? cmd = command switch
         {
             "a" => new ACommand(),
-            "b" => new BCommand(),
+            "check" => new CheckCommand(),
+            "exempt" => new ExemptCommand(),
+            "log" => new LogCommand(),
+            "report" => new ReportCommand(),
+            "restore" => new RestoreCommand(),
+            "schedule" => new ScheduleCommand(),
+            "secure" => new SecureCommand(),
+            "snap" => new SnapCommand(),
+            "vuln" => new VulnCommand(),
             _ => null
         };
 

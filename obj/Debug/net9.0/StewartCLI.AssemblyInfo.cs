@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StewartCLI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68e12dc3d1c2561026bd07ac494012efc7ab2742")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4c13d072a562856fdd8ec5c60a4a0703e9c5491")]
 [assembly: System.Reflection.AssemblyProductAttribute("StewartCLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StewartCLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
