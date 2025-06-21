@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Exempt.cs - Exempt command, handles exempt vulns (such that future commands will ignore presence of such an exemption)
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,5 @@ public class ExemptCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+*/

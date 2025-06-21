@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Log.cs - Log command, handles the configuration of all stewart logs
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,6 @@ public class LogCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+
+*/

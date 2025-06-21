@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/a.cs - Test command "a", for DEBUG use only
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,7 @@ public class ACommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+
+
+*/

@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Report.cs - Report command, generates report of most recent action
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,4 @@ public class ReportCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+*/

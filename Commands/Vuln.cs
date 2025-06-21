@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Vuln.cs - Vuln command, acts as vuln lookup to display information on any particular vuln in database
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,6 @@ public class VulnCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+
+*/

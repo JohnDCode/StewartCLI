@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Snap.cs - Snap command, takes snapshot of system policies to later be imported with stewart restore
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,5 @@ public class SnapCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+*/

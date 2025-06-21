@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Secure.cs - Secure command, attempts to secure any vulns identified in most recent check command
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,6 @@ public class SecureCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+
+*/
