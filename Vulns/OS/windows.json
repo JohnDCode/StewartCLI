@@ -1,6 +1,6 @@
 [
   {
-    "Id": "VULN-001",
+    "Id": "OS-001",
     "Description": "SMBv1 protocol is enabled",
     "CheckType": "PowerShell",
     "CheckCommand": "Get-WindowsOptionalFeature -Online -FeatureName SMB1Protocol | Select-Object -ExpandProperty State",
@@ -8,14 +8,14 @@
     "FixCommand": "Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol"
   },
   {
-    "Id": "VULN-002",
+    "Id": "OS-002",
     "Description": "Windows Firewall is disabled",
     "CheckType": "Custom",
     "CustomCheckName": "CheckFirewallStatus",
     "CustomFixName": "EnableFirewall"
   },
   {
-    "Id": "VULN-003",
+    "Id": "OS-003",
     "Description": "Guest account is enabled",
     "CheckType": "Registry",
     "RegistryPath": "HKLM\\SAM\\SAM\\Domains\\Account\\Users\\000001F5",
