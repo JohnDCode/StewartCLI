@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Schedule.cs - Schedule command, schedules the running of stewart commands (on set times or periodically)
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,5 @@ public class ScheduleCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+*/

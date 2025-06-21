@@ -26,16 +26,16 @@ public class Router
         // Get the command (must follow the ICommand interface) and delegate appropriately
         ICommand? cmd = command switch
         {
-            "a" => new ACommand(),
+            //"a" => new ACommand(),
             "check" => new CheckCommand(),
-            "exempt" => new ExemptCommand(),
-            "log" => new LogCommand(),
-            "report" => new ReportCommand(),
-            "restore" => new RestoreCommand(),
-            "schedule" => new ScheduleCommand(),
-            "secure" => new SecureCommand(),
-            "snap" => new SnapCommand(),
-            "vuln" => new VulnCommand(),
+            //"exempt" => new ExemptCommand(),
+            //"log" => new LogCommand(),
+            //"report" => new ReportCommand(),
+            //"restore" => new RestoreCommand(),
+            //"schedule" => new ScheduleCommand(),
+           // "secure" => new SecureCommand(),
+           // "snap" => new SnapCommand(),
+            //"vuln" => new VulnCommand(),
             _ => null
         };
 

@@ -4,7 +4,7 @@ Stewart CLI
 /Commands/Restore.cs - Restore command, can restore past system configurations from stewart snap
 JohnDavid Abe 
 
-*/
+
 
 using System;
 using System.Diagnostics;
@@ -28,3 +28,5 @@ public class RestoreCommand : ICommand
         Console.WriteLine($"Output:\n{result}");
     }
 }
+
+*/
