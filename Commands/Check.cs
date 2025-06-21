@@ -18,13 +18,10 @@ public class CheckCommand : ICommand
         // Debug console out
         Console.Write("Running Check Command");
 
-        RunSingleCommand().Wait();
-    }
+        // Load JSON data
+        var vulnerabilities = VulnerabilityRepository.Load(Path.Combine(AppContext.BaseDirectory, "Vulns", "OS", "windows.json"));
 
-    private async Task RunSingleCommand()
-    {
-        string command = "Get-Date";
-        string result = await PowerShellRunner.RunAsync(command);
-        Console.WriteLine($"Output:\n{result}");
+        Console.WriteLine(vulnerabilities[0]);
+
     }
 }
